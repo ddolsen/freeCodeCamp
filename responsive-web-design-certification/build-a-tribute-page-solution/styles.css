@@ -1,0 +1,22 @@
+body {
+    background: rgb(229, 229, 229);
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+    text-align: center;
+    width: 55%;
+}
+
+#title > h1 {
+    margin-bottom: 0;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    font-style: italic;
+}
