@@ -1,0 +1,81 @@
+<main>
+    <div class="container">
+        <h1 id="title">Eget felis eget nunc lobortis mattis</h1>
+        <p id="description">
+            Elementum eu facilisis sed odio morbi quis
+        </p>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required />
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email address" required />
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Age
+                    (optional)</label>
+                <input type="number" name="number" id="number" placeholder="Enter your age" min="1" max="120" />
+            </div>
+            <div class="form-group">
+                <label id="drop-down-option-label" for="drop-down-option">Drop-down options</label>
+                <select id="dropdown" name="drop-down-option">
+                    <option value="">--Choose an option--</option>
+                    <option value="drop-down-option-1">Option 1</option>
+                    <option value="drop-down-option-2">Option 2</option>
+                    <option value="drop-down-option-3">Option 3</option>
+                    <option value="drop-down-option-4">Option 4</option>
+                    <option value="drop-down-option-5">Option 5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p id="radio-options-label">Radio button options</p>
+                <label class="option-label">
+                    <input type="radio" name="radio-option" id="radio-option-1" value="radio-option-1" checked />
+                    Option 1
+                </label>
+                <label class="option-label">
+                    <input type="radio" name="radio-option" id="radio-option-2" value="radio-option-2" />
+                    Option 2
+                </label>
+                <label class="option-label">
+                    <input type="radio" name="radio-option" id="radio-option-3" value="radio-option-3" />
+                    Option 3
+                </label>
+                <label class="option-label">
+                    <input type="radio" name="radio-option" id="radio-option-4" value="radio-option-4" />
+                    Option 4
+                </label>
+                <label class="option-label">
+                    <input type="radio" name="radio-option" id="radio-option-5" value="radio-option-5" />
+                    Option 5
+                </label>
+            </div>
+            <div class="form-group">
+                <p id="checkbox-options-label">Checkbox options</p>
+                <label class="option-label">
+                    <input type="checkbox" name="checkbox-option" id="checkbox-option-1" value="checkbox-option-1" />Option 1
+                </label>
+                <label class="option-label">
+                    <input type="checkbox" name="checkbox-option" id="checkbox-option-2" value="checkbox-option-2" />Option 2
+                </label>
+                <label class="option-label">
+                    <input type="checkbox" name="checkbox-option" id="checkbox-option-3" value="checkbox-option-3" />Option 3
+                </label>
+                <label class="option-label">
+                    <input type="checkbox" name="checkbox-option" id="checkbox-option-4" value="checkbox-option-4" />Option 4
+                </label>
+                <label class="option-label"><input type="checkbox" name="checkbox-option" id="checkbox-option-5" value="checkbox-option-5" />Option 5
+                </label>
+            </div>
+            <div class="form-group">
+                <textarea id="text-area" name="text-area" placeholder="Enter text here..." rows="10" cols="60"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</main>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
