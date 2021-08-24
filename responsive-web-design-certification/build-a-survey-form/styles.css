@@ -1,0 +1,65 @@
+body {
+    background: rgb(229, 229, 229);
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#description {
+    font-size: 20px;
+}
+
+label {
+    display: block;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+#radio-options-label {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#checkbox-options-label {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.option-label {
+    font-size: 12px;
+}
+
+input[type="radio"] {
+    margin-left: 15px;
+}
+
+input[type="checkbox"] {
+    margin-left: 15px;
+}
+
+input[type="text"] {
+    width: 60%;
+}
+
+input[type="email"] {
+    width: 60%;
+}
+
+input[type="number"] {
+    width: 60%;
+}
+
+button[type="submit"] {
+    height: 2.5em;
+    width: 5em;
+}
+
+#text-area {
+    font-family: "Roboto", sans-serif;
+}
